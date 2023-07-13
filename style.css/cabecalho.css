@@ -1,0 +1,35 @@
+.cabecalho{
+    background-color: transparent;
+    font-family: var(--font-pequena);
+    font-size: 18px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin: 1rem 5rem;
+
+}
+
+
+.cabecalho__logo{
+    padding: 0.5rem;
+   
+
+}
+
+.icones__cabecalho-link{
+    justify-content: right;
+}
+
+.icones__cabecalho{
+    padding-left: 45rem;
+    display: flex;
+    justify-content: right;
+
+}
+
+.cabecalho-link{
+    padding-left: 2rem;
+    text-decoration: none;
+    color: var(--preto);
+}

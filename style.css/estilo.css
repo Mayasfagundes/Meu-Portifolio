@@ -1,0 +1,39 @@
+@import url(./reset.css);
+@import url(./cabecalho.css);
+@import url(./home.css);
+@import url(./Sobre.css);
+@import url(./projetos.css);
+@import url(./contato.css);
+
+
+
+
+
+
+:root {
+    --fundo-principal: #F5F5F5;
+    --rosa: #E9967A;
+    --preto: #000000;
+    --cinza: #D9D9D9;
+    --cinza-escuro: #333333;
+    --fonte-principal: "Playfair";
+    --fonte-secundaria: "Nunito";
+    --font-pequena: "Roboto";
+
+}
+
+body{
+    background-color: var(--fundo-principal);
+    color: var(--preto);
+}
+
+h1{
+    font-family: "Playfair";
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--rosa);
+}

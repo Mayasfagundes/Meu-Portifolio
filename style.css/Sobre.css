@@ -1,0 +1,21 @@
+.sobre{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.sobre-foto{
+  margin-left: 2rem;
+}
+
+.sobre__conteudo{
+  margin: 0 5rem;
+  text-align: justify;
+}
+
+.sobre__conteudo-titulo{
+  text-align: center;
+}
