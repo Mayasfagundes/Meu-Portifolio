@@ -30,8 +30,9 @@
     
 }
 
-.icones__home{
+.icones__home-itens{
     display: flex;
+    flex-direction:row ;
     padding-top: 1rem;
 
 }
@@ -59,5 +60,17 @@
 }
 
 .home__foto{
-    padding-top: 4rem;
+    padding: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+
+
+}
+@media screen and (max-width: 450px) {
+
+
+
+    }
+   
+    
