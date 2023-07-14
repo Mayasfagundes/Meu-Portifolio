@@ -4,18 +4,17 @@
 @import url(./Sobre.css);
 @import url(./projetos.css);
 @import url(./contato.css);
-
-
-
-
+@import url(./rodape.css);
 
 
 :root {
     --fundo-principal: #F5F5F5;
     --rosa: #E9967A;
+    --branco: #ffffff;
     --preto: #000000;
     --cinza: #D9D9D9;
     --cinza-escuro: #333333;
+    --cinza-medio: #BDBDBD;
     --fonte-principal: "Playfair";
     --fonte-secundaria: "Nunito";
     --font-pequena: "Roboto";

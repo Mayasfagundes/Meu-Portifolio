@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: transparent;
+    background-color: var(--fundo-principal);
     font-family: var(--font-pequena);
     font-size: 18px ;
     display: flex;

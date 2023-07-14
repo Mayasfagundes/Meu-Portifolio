@@ -17,7 +17,7 @@
 
 }
 
-.home__conteudi-titulo{
+.home__conteudo-titulo{
     font-family: "Playfair";
     font-size: 50px;
     font-weight: 700;
@@ -56,4 +56,8 @@
     border: 2px solid var(--rosa);
     border-radius: 5px;
 
+}
+
+.home__foto{
+    padding-top: 4rem;
 }
