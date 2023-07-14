@@ -53,3 +53,14 @@ input[type="submit"],
         background-color: var(--cinza-escuro);
       }
       
+
+
+@media screen and (max-width: 768px) {
+
+
+      }
+      
+@media screen and (max-width: 450px) {
+      
+      
+      }
