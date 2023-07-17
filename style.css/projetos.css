@@ -2,6 +2,10 @@
     background-image: url(../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
     background-color: var(--cinza-escuro);
     padding: 0 0 15rem 0 ;
+    height: 100%; 
+    opacity: 0.7; background: no-repeat; background-size: cover ;
+    background-position: center; background-attachment: fixed;
+    position: relative;
 }
 
 .projetos__titulo{
