@@ -1,6 +1,8 @@
 .projetos{
     background-color: #A9A9F5;
     padding: 0 0 15rem 0 ;
+    height: 100%; 
+    
 }
 
 .projetos__titulo{
@@ -181,5 +183,4 @@ input {
     margin-left: 50rem;
     margin-right: 2rem;
     font-size: 20px;
-    
-}
+} 
