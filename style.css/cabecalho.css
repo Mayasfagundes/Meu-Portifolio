@@ -17,6 +17,10 @@
 
 }
 
+.logo__img{
+    width: 120px;
+}
+
 .icones__cabecalho-link{
     justify-content: right;
 }

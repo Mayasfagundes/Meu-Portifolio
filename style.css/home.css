@@ -3,6 +3,7 @@
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: center;
+    
 }
 
 .home__conteudo{
@@ -22,6 +23,8 @@
     font-size: 50px;
     font-weight: 700;
     color: var(--cinza-escuro);
+
+
 }
 
 .home__conteudo-texto{
@@ -59,9 +62,19 @@
 
 }
 
+
 .home__foto{
     padding: 3rem;
 }
+
+.transição1{
+    text-align: center;
+    font-size: 40px ;
+    margin: 15rem;
+    font-family: "Playfair";
+    font-weight: 700;
+}
+
 
 @media screen and (max-width: 768px) {
 

@@ -1,3 +1,21 @@
+.contato{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+        
+        
+    }
+
+.contato__conteudo{
+    margin: 2rem;
+    justify-content: left;
+    text-align: left;
+    display: grid;
+
+}
+
+
 .contato__texto{
     font-family: "Playfair";
     font-size: 30px;
@@ -52,7 +70,25 @@ input[type="submit"],
       .whatsapp-button:hover {
         background-color: var(--cinza-escuro);
       }
+
+      .animated{
+        max-width: 30%;
+      }
+
+
+      svg {
+        flex-shrink: 0;
+        width: 600px;
+        max-width: 90vw;
+      }
       
+      @import url("https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap");
+      
+      .screen-log {
+        padding-top: 1rem;
+        text-align: center;
+        color: black;
+      }
 
 
 @media screen and (max-width: 768px) {

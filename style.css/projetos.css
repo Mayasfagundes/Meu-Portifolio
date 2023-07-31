@@ -1,6 +1,5 @@
 .projetos{
-    background-image: url(../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
-    background-color: var(--cinza-escuro);
+    background-color: #A9A9F5;
     padding: 0 0 15rem 0 ;
 }
 
@@ -13,8 +12,9 @@
 .projetos__carrosel{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 50vh;
+    padding-left: 10rem;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -174,4 +174,11 @@ input {
     transform: translate3d(70%, 0, -220px);
     --current-color1: #ECEAED;
     --current-color2: #404457;
+}
+
+.projetos__texto{
+    text-align: justify;
+    margin-left: 50rem;
+    margin-right: 2rem;
+    font-size: 20px;
 }

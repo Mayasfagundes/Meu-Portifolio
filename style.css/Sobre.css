@@ -7,8 +7,12 @@
 
 }
 
-.sobre-foto{
-  margin-left: 2rem;
+
+
+.sobre__img{
+  margin: 2rem;
+  border-radius: 5rem;
+  width: 70%;
 }
 
 .sobre__conteudo{
@@ -18,6 +22,45 @@
 
 .sobre__conteudo-titulo{
   text-align: center;
+}
+
+.skils{
+  margin-top: 3rem;
+}
+
+.skils__titulo{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1rem;
+
+}
+
+.skils__lista{
+  display: flex;
+  background-color: #BDBDBD;
+  border-radius: 5px;
+
+
+
+}
+
+.skils__itens {
+  flex: 1; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 0 1rem 0 ;
+
+  
+}
+
+.skils__img {
+  width: 40%; 
+  
 }
 
 @media screen and (max-width: 768px) {

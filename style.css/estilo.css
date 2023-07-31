@@ -5,6 +5,8 @@
 @import url(./projetos.css);
 @import url(./contato.css);
 @import url(./rodape.css);
+@import url(../js/contato.js);
+@import url(../js/projeto.js);
 
 
 :root {
@@ -24,6 +26,9 @@
 body{
     background-color: var(--fundo-principal);
     color: var(--preto);
+    
+    
+
 }
 
 h1{

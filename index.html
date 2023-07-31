@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Playfair+Display:wght@500;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js">
     <link rel="stylesheet" href="./style.css/estilo.css">
+    
 </head>
 <body>
 
@@ -17,24 +19,24 @@
 <div class="cabecalho">
     <div class=" cabecalho__logo">
     <ul class="logo__cabecalho">
-        <li class="logo__principal">MONOGRAMA</li>
+        <li class="logo__principal"> <img class="logo__img" src="./img/_Mayara.svg" alt=""></li>
     </ul>
     </div>
 
     <div class="cabecalho__icones">
     <ul class="icones__cabecalho">
-        <li class="icones__cabecalho-link"> <a href="#sobre" class="cabecalho-link">SOBRE</a></li>
-        <li class="icones__cabecalho-link"> <a href="#projetos" class="cabecalho-link">PROJETOS</a></li>
-        <li class="icones__cabecalho-link"> <a href="#contato" class="cabecalho-link">CONTATOS</a></li>
+      <li class="icones__cabecalho-link"><a href="#sobre" class="cabecalho-link">SOBRE</a></li>
+      <li class="icones__cabecalho-link"><a href="#projetos" class="cabecalho-link">PROJETOS</a></li>
+      <li class="icones__cabecalho-link"><a href="#contatos" class="cabecalho-link">CONTATOS</a></li>
 
     </ul>
     </div>
 </header>
 
 <section class="home" id="home">
-    <div class="home__conteudo">
+  <div class="home__conteudo">
         <h2 class="home__conteudo-profissao">FRONT-END</h2>
-        <h3 class="home__conteudo-titulo">Olá,  meu nome é <br>Mayara Fagundes</h1>
+        <h3 class="home__conteudo-titulo">Olá,  meu nome é <br>Mayara Fagundes</h3>
         <p class="home__conteudo-texto">Short text with details about you, 
             what you do or your professional career. 
             You can add more information on the about page.</p>
@@ -50,12 +52,16 @@
     <div class="home__foto">
         <img src="./img/Vector.svg" alt="Foto de Mayara Fagundes">
     </div>
+
 </section>
 
+<p class="transição1">Criando produtos <br>& gerando experiências digitais.</p>
+
+
 <h1 class="sobre__titulo">Sobre mim</h1>
-<section class="sobre" id="#sobre">
-    <div class="sobre-foto">
-        <img src="img/WhatsApp Image 2023-07-10 at 14.13 1.svg" alt="Foto de Mayara">
+<section class="sobre" id="sobre">
+      <div class="sobre__foto">
+        <img class="sobre__img" src="img/WhatsApp Image 2023-07-10 at 14.13 1.svg" alt="Foto de Mayara">
     </div>
 
     <div class="sobre__conteudo">
@@ -70,14 +76,30 @@
         Phasellus bibendum sapien sit amet est volutpat molestie eu sit amet lacus. Maecenas posuere, 
         felis maximus tincidunt posuere, arcu turpis sagittis risus, nec ultricies turpis ante vel tortor. 
     </p>
-    </div> 
-</section>
 
-<section class="projetos" id="#projetos">
+    <div class="skils">
+      <h2 class="skils__titulo">Skills e Tecnologias que uso no dia dia </h2>
+      <ul class="skils__lista">
+        <li class="skils__itens"><img class="skils__img" src="./img/css-3-svgrepo-com.svg" alt="CSS"></a></li>
+        <li class="skils__itens"><img class="skils__img" src="./img/figma-svgrepo-com.svg" alt="CSS"></a></li>
+        <li class="skils__itens"><img class="skils__img" src="./img/javascript-svgrepo-com.svg" alt="CSS"></a></li>
+        <li class="skils__itens"><img class="skils__img" src="./img/github-logo_icon-icons.com_73546.svg" alt="CSS"></a></li>
+        <li class="skils__itens"><img class="skils__img" src="./img/bootstrap_plain_logo_icon_146619.svg" alt="CSS"></a></li>
+
+      </ul>
+      
+    </div>
+    </div>
+
+  </section>
+
+
+<section class="projetos" id="projetos">
   <h1 class="projetos__titulo">Projetos</h1>
 
+
     <div class="projetos__carrosel">
-        <div class="projetos__container">
+    <div class="projetos__container">
 
             <input type="radio" name="slider" class="d-none" id="s1" checked>
             <input type="radio" name="slider" class="d-none" id="s2">
@@ -166,22 +188,64 @@
             </div>
         
           </div>
+    
+  </div>
+
+  <div class="projetos__texto">
+    <p class="projetos__texto-conteudo">
+      Todos os projetos foram criados como objetos de estudo, provenientes de cursos, bootcamps e outras atividades relacionadas.    </p>
+  </div>
           
 
 </section>
 
-<section class="contato" id="#contato">
+<section class="contato" id="contatos">
+  <div class="contato__conteudo">
     <h1 class="contato">Contatos</h1>
     <p class="contato__texto">Tem uma pergunta ou proposta, ou apenas quer
       dizer olá? Vá em frente.</p>
-     
-    <div class="contato__links">
+
+      <div class="contato__links">
       <form class="botao__email" action="mailto:mayara.christina.fagundes@gmail.com" method="post" enctype="text/plain">
         <input type="submit" value="Enviar Email">
       </form>  
       
       <a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=48988290729" target="_blank">Contato pelo WhatsApp</a>
     </div>
+  </div> 
+
+<div class="contato__animacao">
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="191" height="225" viewBox="0 0 191 225" fill="none">
+    <path d="M138.98 16.3015C143.644 18.973 158.602 24.6127 167.26 62.0528C172.328 102.778 173.93 113.642 175.496 122.606C177.062 131.57 177.608 145.561 186.583 164.459C195.558 183.357 188.078 193.449 188.078 193.449L174.651 207.459C174.651 207.459 180.723 182.427 170.023 171.583C170.023 171.583 173.543 199.287 170.023 205.223C166.503 211.16 154.625 218.917 154.625 218.917C154.625 218.917 150.261 209.953 145.72 199.841C141.18 189.729 150.613 221.608 145.861 223.765C141.11 225.922 105.052 212.308 88.9312 219.946C68.2009 215.217 54.1234 221.509 49.7768 219.946C49.7768 219.946 54.6162 217.235 51.1318 204.867C47.6474 192.499 49.372 189.848 48.4569 191.015C47.5418 192.183 44.7614 196.952 46.6971 205.837C47.2893 208.33 47.2888 210.955 46.6959 213.448C46.103 215.942 44.9383 218.217 43.3183 220.045C43.3183 220.045 30.8062 210.843 20.8458 209.735C15.1871 209.155 9.58964 207.975 4.12786 206.213C4.12786 206.213 -4.67108 183.594 3.42394 159.591C11.519 135.587 16.4464 132.916 17.0095 102.778C17.5726 72.6397 21.2506 34.1904 52.9268 13.729C84.603 -6.73241 120.045 -3.03194 138.98 16.3015Z" fill="url(#paint0_linear_8_7)"/>
+    <path d="M111.662 168.843V149.297C111.721 147.571 111.423 145.852 110.788 144.242C110.152 142.631 109.192 141.162 107.964 139.921C106.736 138.681 105.266 137.695 103.64 137.021C102.014 136.347 100.266 136 98.5 136C96.7341 136 94.9861 136.347 93.3602 137.021C91.7343 137.695 90.2637 138.681 89.0357 139.921C87.8077 141.162 86.8475 142.631 86.2122 144.242C85.5769 145.852 85.2795 147.571 85.3377 149.297V168.843C63.5266 172.808 50 189.897 50 207H98.5H147C147 189.911 133.431 172.808 111.662 168.843Z" fill="#EDE3D1"/>
+    <path d="M95.681 195.445C63.1109 195.445 68.3035 123.335 68.3035 224H95.6702L122.659 220.142C122.605 119.568 128.24 195.445 95.681 195.445Z" fill="white" stroke="#404040" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M77.9616 168C58.9154 170.576 43 195.3 43 224H96L86 198L77.9616 168Z" fill="#FFC0CB"/>
+    <path d="M115.207 169C134.659 171.531 151 195.816 151 224H95L104 201L115.207 169Z" fill="#FFC0CB"/>
+    <path d="M82.1996 141.997H114.284V167.625C114.284 167.625 95.9851 177.547 82.1996 167.625V141.997Z" fill="#EFCEB9"/>
+    <path d="M87.3803 153.423H103.151C127.368 153.423 147 135.954 147 114.404V72.019C147 50.4694 127.368 33 103.151 33H87.3803C63.1633 33 43.5315 50.4694 43.5315 72.019L43.5315 114.404C43.5315 135.954 63.1633 153.423 87.3803 153.423Z" fill="#EDE3D1"/>
+    <path d="M122.116 79.0059C120.067 77.936 117.763 77.3107 115.391 77.1806C112.964 77.1474 110.558 77.5919 108.346 78.4823" stroke="#B5AA9A" stroke-width="1.04" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M82.4205 79.6193C80.3431 78.6328 78.0468 78.0657 75.6952 77.9586C73.279 77.9068 70.8762 78.2937 68.6336 79.0957" stroke="#B5AA9A" stroke-width="1.04" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M82.2187 121.675C82.2187 121.675 94.0888 128.588 105.757 124.054" stroke="#B5AA9A" stroke-width="1.04" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M69.5752 91.5285C69.4575 94.6404 71.6768 97.2138 74.5182 97.2886C77.3597 97.3634 79.7303 94.9097 79.8312 91.7978C79.9321 88.6859 77.7296 86.1125 74.8881 86.0377C72.0467 85.9629 69.676 88.4166 69.5752 91.5285Z" fill="#B5AA9A"/>
+    <path d="M110.246 91.5285C110.129 94.6404 112.348 97.2138 115.189 97.2886C118.031 97.3634 120.401 94.9097 120.502 91.7978C120.603 88.6859 118.401 86.1125 115.559 86.0377C112.718 85.9629 110.347 88.4166 110.246 91.5285Z" fill="#B5AA9A"/>
+    <path d="M91.281 107.627C91.281 107.627 96.4763 109.946 100.999 107.627" stroke="#E0D5C1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M70.2813 107.687C69.2567 107.508 68.3348 107.015 67.6753 106.295C67.0851 105.651 66.664 104.897 66.443 104.09C66.2219 103.282 66.2063 102.441 66.3975 101.627C66.6671 100.711 67.2556 99.894 68.0788 99.2933C68.7462 98.8271 69.587 98.6027 70.4326 98.665C71.5431 98.8287 72.5601 99.3182 73.3217 100.056C74.0834 100.793 74.546 101.736 74.6359 102.734C74.6523 102.839 74.6523 102.944 74.6359 103.049C74.7709 103.492 74.8332 103.951 74.8209 104.41C74.8777 105.192 74.6039 105.965 74.0533 106.577C73.5027 107.188 72.7151 107.595 71.845 107.717C71.3279 107.812 70.7932 107.802 70.2813 107.687ZM69.3398 104.44V104.365C69.3398 104.365 69.2725 104.44 69.3398 104.44Z" fill="#EFCEB9"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M119.09 107.717C118.224 107.599 117.439 107.197 116.889 106.591C116.338 105.985 116.062 105.218 116.114 104.44C116.104 103.982 116.161 103.524 116.282 103.079V102.764C116.373 101.764 116.838 100.819 117.603 100.082C118.368 99.3438 119.389 98.8556 120.502 98.6949C121.348 98.6326 122.189 98.8571 122.856 99.3233C123.679 99.9239 124.268 100.741 124.538 101.657C124.729 102.471 124.713 103.312 124.492 104.12C124.271 104.927 123.85 105.681 123.26 106.325C122.6 107.045 121.678 107.538 120.654 107.717C120.139 107.822 119.605 107.822 119.09 107.717ZM121.662 104.425V104.5C121.662 104.575 121.747 104.44 121.662 104.44V104.425Z" fill="#EFCEB9"/>
+    <defs>
+    <linearGradient id="paint0_linear_8_7" x1="95.5312" y1="232.591" x2="95.5312" y2="-0.0042839" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFF5CC"/>
+    <stop offset="0.01" stop-color="#FAF0C8"/>
+    <stop offset="0.19" stop-color="#C2B599"/>
+    <stop offset="0.35" stop-color="#998977"/>
+    <stop offset="0.47" stop-color="#806F62"/>
+    <stop offset="0.54" stop-color="#77655A"/>
+    <stop offset="0.6" stop-color="#77655A"/>
+    <stop offset="1" stop-color="#77655A"/>
+    </linearGradient>
+    </defs>
+    </svg>
+</div>
 </section>
 
 <footer class="rodape">
@@ -198,6 +262,7 @@
 </div>
 </footer>
 
+<script src="./js/contato.js"></script>
 
 </body>
 </html>
