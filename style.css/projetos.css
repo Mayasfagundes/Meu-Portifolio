@@ -1,6 +1,8 @@
 .projetos{
     background-color: #A9A9F5;
     padding: 0 0 15rem 0 ;
+    height: 100%; 
+    
 }
 
 .projetos__titulo{
@@ -174,11 +176,4 @@ input {
     transform: translate3d(70%, 0, -220px);
     --current-color1: #ECEAED;
     --current-color2: #404457;
-}
-
-.projetos__texto{
-    text-align: justify;
-    margin-left: 50rem;
-    margin-right: 2rem;
-    font-size: 20px;
 }
